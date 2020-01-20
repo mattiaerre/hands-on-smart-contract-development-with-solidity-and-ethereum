@@ -1,0 +1,27 @@
+{
+  "name": "hands-on-smart-contract-development-with-solidity-and-ethereum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier '**/*.{js,json,sol}'",
+    "prettier:fix": "npm run prettier --write",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "truffle": "truffle"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-truffle": "^0.3.1",
+    "prettier": "^1.19.1",
+    "prettier-plugin-solidity": "^1.0.0-alpha.36",
+    "truffle": "^5.1.9"
+  }
+}

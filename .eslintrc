@@ -1,0 +1,22 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true,
+    "mocha": true,
+    "truffle/globals": true // same as "truffle/truffle": true
+  },
+  "extends": ["standard"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "plugins": ["truffle"],
+  "rules": {
+    "semi": "off",
+    "space-before-function-paren": "off"
+  }
+}
